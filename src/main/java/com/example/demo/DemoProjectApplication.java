@@ -2,6 +2,8 @@ package com.example.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -13,8 +15,8 @@ public class DemoProjectApplication {
 		SpringApplication.run(DemoProjectApplication.class, args);
 	}
 	
-	@GetMapping
-	public String display() {
-		return "Hello World..Welcome to Jenkins!!!!";
+	@GetMapping("/text")
+	public ResponseEntity<String> display() {
+		return new ResponseEntity<>("Hello World..Welcome to Jenkins,here!!!!",HttpStatus.OK);
 	}
 }
