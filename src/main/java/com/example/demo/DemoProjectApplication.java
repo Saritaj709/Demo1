@@ -17,6 +17,6 @@ public class DemoProjectApplication {
 	
 	@GetMapping("/text")
 	public ResponseEntity<String> display() {
-		return new ResponseEntity<>("Hello World..Welcome to Jenkins,here!!!!",HttpStatus.OK);
+		return new ResponseEntity<>("Hello World..Welcome to Jenkins!!!!",HttpStatus.OK);
 	}
 }
