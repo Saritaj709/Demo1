@@ -1,0 +1,352 @@
+src/main/java/com/capgemini/amqp/ServletInitializer.java:6:	Each class should declare at least one constructor
+src/main/java/com/capgemini/amqp/ServletInitializer.java:6:	Each class should declare at least one constructor
+src/main/java/com/capgemini/amqp/ServletInitializer.java:6:	Header comments are required
+src/main/java/com/capgemini/amqp/ServletInitializer.java:6:	Header comments are required
+src/main/java/com/capgemini/amqp/ServletInitializer.java:9:	Parameter 'application' is not assigned and could be declared final
+src/main/java/com/capgemini/amqp/ServletInitializer.java:9:	Parameter 'application' is not assigned and could be declared final
+src/main/java/com/capgemini/amqp/SpringAmqpApplication.java:8:	Each class should declare at least one constructor
+src/main/java/com/capgemini/amqp/SpringAmqpApplication.java:8:	Each class should declare at least one constructor
+src/main/java/com/capgemini/amqp/SpringAmqpApplication.java:8:	Header comments are required
+src/main/java/com/capgemini/amqp/SpringAmqpApplication.java:8:	Header comments are required
+src/main/java/com/capgemini/amqp/SpringAmqpApplication.java:10:	Parameter 'args' is not assigned and could be declared final
+src/main/java/com/capgemini/amqp/SpringAmqpApplication.java:10:	Parameter 'args' is not assigned and could be declared final
+src/main/java/com/capgemini/amqp/SpringAmqpApplication.java:10:	Public method and constructor comments are required
+src/main/java/com/capgemini/amqp/SpringAmqpApplication.java:10:	Public method and constructor comments are required
+src/main/java/com/capgemini/amqp/SpringAmqpApplication.java:14:	Parameter 'application' is not assigned and could be declared final
+src/main/java/com/capgemini/amqp/SpringAmqpApplication.java:14:	Parameter 'application' is not assigned and could be declared final
+src/main/java/com/capgemini/amqp/SpringAmqpApplication.java:14:	Protected method constructor comments are required
+src/main/java/com/capgemini/amqp/SpringAmqpApplication.java:14:	Protected method constructor comments are required
+src/main/java/com/capgemini/amqp/config/ApplicationConfigReader.java:9:	Each class should declare at least one constructor
+src/main/java/com/capgemini/amqp/config/ApplicationConfigReader.java:9:	Each class should declare at least one constructor
+src/main/java/com/capgemini/amqp/config/ApplicationConfigReader.java:9:	Header comments are required
+src/main/java/com/capgemini/amqp/config/ApplicationConfigReader.java:9:	Header comments are required
+src/main/java/com/capgemini/amqp/config/ApplicationConfigReader.java:9:	The class 'ApplicationConfigReader' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=12, WMC=12)
+src/main/java/com/capgemini/amqp/config/ApplicationConfigReader.java:9:	The class 'ApplicationConfigReader' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=12, WMC=12)
+src/main/java/com/capgemini/amqp/config/ApplicationConfigReader.java:11:	Field comments are required
+src/main/java/com/capgemini/amqp/config/ApplicationConfigReader.java:11:	Field comments are required
+src/main/java/com/capgemini/amqp/config/ApplicationConfigReader.java:13:	Field comments are required
+src/main/java/com/capgemini/amqp/config/ApplicationConfigReader.java:13:	Field comments are required
+src/main/java/com/capgemini/amqp/config/ApplicationConfigReader.java:15:	Field comments are required
+src/main/java/com/capgemini/amqp/config/ApplicationConfigReader.java:15:	Field comments are required
+src/main/java/com/capgemini/amqp/config/ApplicationConfigReader.java:17:	Field comments are required
+src/main/java/com/capgemini/amqp/config/ApplicationConfigReader.java:17:	Field comments are required
+src/main/java/com/capgemini/amqp/config/ApplicationConfigReader.java:19:	Field comments are required
+src/main/java/com/capgemini/amqp/config/ApplicationConfigReader.java:19:	Field comments are required
+src/main/java/com/capgemini/amqp/config/ApplicationConfigReader.java:21:	Field comments are required
+src/main/java/com/capgemini/amqp/config/ApplicationConfigReader.java:21:	Field comments are required
+src/main/java/com/capgemini/amqp/config/ApplicationConfigReader.java:28:	Parameter 'app1Exchange' is not assigned and could be declared final
+src/main/java/com/capgemini/amqp/config/ApplicationConfigReader.java:28:	Parameter 'app1Exchange' is not assigned and could be declared final
+src/main/java/com/capgemini/amqp/config/ApplicationConfigReader.java:36:	Parameter 'app1Queue' is not assigned and could be declared final
+src/main/java/com/capgemini/amqp/config/ApplicationConfigReader.java:36:	Parameter 'app1Queue' is not assigned and could be declared final
+src/main/java/com/capgemini/amqp/config/ApplicationConfigReader.java:44:	Parameter 'app1RoutingKey' is not assigned and could be declared final
+src/main/java/com/capgemini/amqp/config/ApplicationConfigReader.java:44:	Parameter 'app1RoutingKey' is not assigned and could be declared final
+src/main/java/com/capgemini/amqp/config/ApplicationConfigReader.java:52:	Parameter 'app2Exchange' is not assigned and could be declared final
+src/main/java/com/capgemini/amqp/config/ApplicationConfigReader.java:52:	Parameter 'app2Exchange' is not assigned and could be declared final
+src/main/java/com/capgemini/amqp/config/ApplicationConfigReader.java:60:	Parameter 'app2Queue' is not assigned and could be declared final
+src/main/java/com/capgemini/amqp/config/ApplicationConfigReader.java:60:	Parameter 'app2Queue' is not assigned and could be declared final
+src/main/java/com/capgemini/amqp/config/ApplicationConfigReader.java:68:	Parameter 'app2RoutingKey' is not assigned and could be declared final
+src/main/java/com/capgemini/amqp/config/ApplicationConfigReader.java:68:	Parameter 'app2RoutingKey' is not assigned and could be declared final
+src/main/java/com/capgemini/amqp/config/RabbitMQConfig.java:19:	Each class should declare at least one constructor
+src/main/java/com/capgemini/amqp/config/RabbitMQConfig.java:19:	Each class should declare at least one constructor
+src/main/java/com/capgemini/amqp/config/RabbitMQConfig.java:19:	Header comments are required
+src/main/java/com/capgemini/amqp/config/RabbitMQConfig.java:19:	Header comments are required
+src/main/java/com/capgemini/amqp/config/RabbitMQConfig.java:20:	Field comments are required
+src/main/java/com/capgemini/amqp/config/RabbitMQConfig.java:20:	Field comments are required
+src/main/java/com/capgemini/amqp/config/RabbitMQConfig.java:22:	Field comments are required
+src/main/java/com/capgemini/amqp/config/RabbitMQConfig.java:22:	Field comments are required
+src/main/java/com/capgemini/amqp/config/RabbitMQConfig.java:24:	Use explicit scoping instead of the default package private level
+src/main/java/com/capgemini/amqp/config/RabbitMQConfig.java:24:	Use explicit scoping instead of the default package private level
+src/main/java/com/capgemini/amqp/config/RabbitMQConfig.java:25:	To avoid mistakes add a comment at the beginning of the queue method if you want a default access modifier
+src/main/java/com/capgemini/amqp/config/RabbitMQConfig.java:25:	To avoid mistakes add a comment at the beginning of the queue method if you want a default access modifier
+src/main/java/com/capgemini/amqp/config/RabbitMQConfig.java:29:	Use explicit scoping instead of the default package private level
+src/main/java/com/capgemini/amqp/config/RabbitMQConfig.java:29:	Use explicit scoping instead of the default package private level
+src/main/java/com/capgemini/amqp/config/RabbitMQConfig.java:30:	To avoid mistakes add a comment at the beginning of the exchange method if you want a default access modifier
+src/main/java/com/capgemini/amqp/config/RabbitMQConfig.java:30:	To avoid mistakes add a comment at the beginning of the exchange method if you want a default access modifier
+src/main/java/com/capgemini/amqp/config/RabbitMQConfig.java:34:	Use explicit scoping instead of the default package private level
+src/main/java/com/capgemini/amqp/config/RabbitMQConfig.java:34:	Use explicit scoping instead of the default package private level
+src/main/java/com/capgemini/amqp/config/RabbitMQConfig.java:35:	Parameter 'exchange' is not assigned and could be declared final
+src/main/java/com/capgemini/amqp/config/RabbitMQConfig.java:35:	Parameter 'exchange' is not assigned and could be declared final
+src/main/java/com/capgemini/amqp/config/RabbitMQConfig.java:35:	Parameter 'queue' is not assigned and could be declared final
+src/main/java/com/capgemini/amqp/config/RabbitMQConfig.java:35:	Parameter 'queue' is not assigned and could be declared final
+src/main/java/com/capgemini/amqp/config/RabbitMQConfig.java:35:	To avoid mistakes add a comment at the beginning of the binding method if you want a default access modifier
+src/main/java/com/capgemini/amqp/config/RabbitMQConfig.java:35:	To avoid mistakes add a comment at the beginning of the binding method if you want a default access modifier
+src/main/java/com/capgemini/amqp/config/RabbitMQConfig.java:36:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/capgemini/amqp/config/RabbitMQConfig.java:36:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/capgemini/amqp/config/RabbitMQConfig.java:36:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/capgemini/amqp/config/RabbitMQConfig.java:36:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/capgemini/amqp/config/RabbitMQConfig.java:39:	Use explicit scoping instead of the default package private level
+src/main/java/com/capgemini/amqp/config/RabbitMQConfig.java:39:	Use explicit scoping instead of the default package private level
+src/main/java/com/capgemini/amqp/config/RabbitMQConfig.java:40:	Parameter 'connectionFactory' is not assigned and could be declared final
+src/main/java/com/capgemini/amqp/config/RabbitMQConfig.java:40:	Parameter 'connectionFactory' is not assigned and could be declared final
+src/main/java/com/capgemini/amqp/config/RabbitMQConfig.java:40:	To avoid mistakes add a comment at the beginning of the container method if you want a default access modifier
+src/main/java/com/capgemini/amqp/config/RabbitMQConfig.java:40:	To avoid mistakes add a comment at the beginning of the container method if you want a default access modifier
+src/main/java/com/capgemini/amqp/config/RabbitMQConfig.java:41:	Parameter 'listenerAdapter' is not assigned and could be declared final
+src/main/java/com/capgemini/amqp/config/RabbitMQConfig.java:41:	Parameter 'listenerAdapter' is not assigned and could be declared final
+src/main/java/com/capgemini/amqp/config/RabbitMQConfig.java:42:	Local variable 'container' could be declared final
+src/main/java/com/capgemini/amqp/config/RabbitMQConfig.java:42:	Local variable 'container' could be declared final
+src/main/java/com/capgemini/amqp/config/RabbitMQConfig.java:49:	Use explicit scoping instead of the default package private level
+src/main/java/com/capgemini/amqp/config/RabbitMQConfig.java:49:	Use explicit scoping instead of the default package private level
+src/main/java/com/capgemini/amqp/config/RabbitMQConfig.java:50:	Parameter 'receiver' is not assigned and could be declared final
+src/main/java/com/capgemini/amqp/config/RabbitMQConfig.java:50:	Parameter 'receiver' is not assigned and could be declared final
+src/main/java/com/capgemini/amqp/config/RabbitMQConfig.java:50:	To avoid mistakes add a comment at the beginning of the listenerAdapter method if you want a default access modifier
+src/main/java/com/capgemini/amqp/config/RabbitMQConfig.java:50:	To avoid mistakes add a comment at the beginning of the listenerAdapter method if you want a default access modifier
+src/main/java/com/capgemini/amqp/config/RabbitMqListenerConfig.java:22:	Each class should declare at least one constructor
+src/main/java/com/capgemini/amqp/config/RabbitMqListenerConfig.java:22:	Each class should declare at least one constructor
+src/main/java/com/capgemini/amqp/config/RabbitMqListenerConfig.java:22:	Header comments are required
+src/main/java/com/capgemini/amqp/config/RabbitMqListenerConfig.java:22:	Header comments are required
+src/main/java/com/capgemini/amqp/config/RabbitMqListenerConfig.java:25:	Field applicationConfig has the same name as a method
+src/main/java/com/capgemini/amqp/config/RabbitMqListenerConfig.java:25:	Field applicationConfig has the same name as a method
+src/main/java/com/capgemini/amqp/config/RabbitMqListenerConfig.java:25:	Field comments are required
+src/main/java/com/capgemini/amqp/config/RabbitMqListenerConfig.java:25:	Field comments are required
+src/main/java/com/capgemini/amqp/config/RabbitMqListenerConfig.java:31:	Parameter 'applicationConfig' is not assigned and could be declared final
+src/main/java/com/capgemini/amqp/config/RabbitMqListenerConfig.java:31:	Parameter 'applicationConfig' is not assigned and could be declared final
+src/main/java/com/capgemini/amqp/config/RabbitMqListenerConfig.java:43:	Public method and constructor comments are required
+src/main/java/com/capgemini/amqp/config/RabbitMqListenerConfig.java:43:	Public method and constructor comments are required
+src/main/java/com/capgemini/amqp/config/RabbitMqListenerConfig.java:44:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/capgemini/amqp/config/RabbitMqListenerConfig.java:44:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/capgemini/amqp/config/RabbitMqListenerConfig.java:49:	Public method and constructor comments are required
+src/main/java/com/capgemini/amqp/config/RabbitMqListenerConfig.java:49:	Public method and constructor comments are required
+src/main/java/com/capgemini/amqp/config/RabbitMqListenerConfig.java:50:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/capgemini/amqp/config/RabbitMqListenerConfig.java:50:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/capgemini/amqp/config/RabbitMqListenerConfig.java:55:	Public method and constructor comments are required
+src/main/java/com/capgemini/amqp/config/RabbitMqListenerConfig.java:55:	Public method and constructor comments are required
+src/main/java/com/capgemini/amqp/config/RabbitMqListenerConfig.java:56:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/capgemini/amqp/config/RabbitMqListenerConfig.java:56:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/capgemini/amqp/config/RabbitMqListenerConfig.java:56:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/capgemini/amqp/config/RabbitMqListenerConfig.java:56:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/capgemini/amqp/config/RabbitMqListenerConfig.java:56:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/capgemini/amqp/config/RabbitMqListenerConfig.java:56:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/capgemini/amqp/config/RabbitMqListenerConfig.java:57:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/capgemini/amqp/config/RabbitMqListenerConfig.java:57:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/capgemini/amqp/config/RabbitMqListenerConfig.java:62:	Public method and constructor comments are required
+src/main/java/com/capgemini/amqp/config/RabbitMqListenerConfig.java:62:	Public method and constructor comments are required
+src/main/java/com/capgemini/amqp/config/RabbitMqListenerConfig.java:63:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/capgemini/amqp/config/RabbitMqListenerConfig.java:63:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/capgemini/amqp/config/RabbitMqListenerConfig.java:68:	Public method and constructor comments are required
+src/main/java/com/capgemini/amqp/config/RabbitMqListenerConfig.java:68:	Public method and constructor comments are required
+src/main/java/com/capgemini/amqp/config/RabbitMqListenerConfig.java:69:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/capgemini/amqp/config/RabbitMqListenerConfig.java:69:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/capgemini/amqp/config/RabbitMqListenerConfig.java:74:	Public method and constructor comments are required
+src/main/java/com/capgemini/amqp/config/RabbitMqListenerConfig.java:74:	Public method and constructor comments are required
+src/main/java/com/capgemini/amqp/config/RabbitMqListenerConfig.java:75:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/capgemini/amqp/config/RabbitMqListenerConfig.java:75:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/capgemini/amqp/config/RabbitMqListenerConfig.java:75:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/capgemini/amqp/config/RabbitMqListenerConfig.java:75:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/capgemini/amqp/config/RabbitMqListenerConfig.java:75:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/capgemini/amqp/config/RabbitMqListenerConfig.java:75:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/capgemini/amqp/config/RabbitMqListenerConfig.java:76:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/capgemini/amqp/config/RabbitMqListenerConfig.java:76:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/capgemini/amqp/config/RabbitMqListenerConfig.java:81:	Public method and constructor comments are required
+src/main/java/com/capgemini/amqp/config/RabbitMqListenerConfig.java:81:	Public method and constructor comments are required
+src/main/java/com/capgemini/amqp/config/RabbitMqListenerConfig.java:88:	Public method and constructor comments are required
+src/main/java/com/capgemini/amqp/config/RabbitMqListenerConfig.java:88:	Public method and constructor comments are required
+src/main/java/com/capgemini/amqp/config/RabbitMqListenerConfig.java:93:	Public method and constructor comments are required
+src/main/java/com/capgemini/amqp/config/RabbitMqListenerConfig.java:93:	Public method and constructor comments are required
+src/main/java/com/capgemini/amqp/config/RabbitMqListenerConfig.java:98:	Public method and constructor comments are required
+src/main/java/com/capgemini/amqp/config/RabbitMqListenerConfig.java:98:	Public method and constructor comments are required
+src/main/java/com/capgemini/amqp/config/RabbitMqListenerConfig.java:99:	Local variable 'factory' could be declared final
+src/main/java/com/capgemini/amqp/config/RabbitMqListenerConfig.java:99:	Local variable 'factory' could be declared final
+src/main/java/com/capgemini/amqp/controller/UserService.java:22:	Header comments are required
+src/main/java/com/capgemini/amqp/controller/UserService.java:22:	Header comments are required
+src/main/java/com/capgemini/amqp/controller/UserService.java:23:	Field comments are required
+src/main/java/com/capgemini/amqp/controller/UserService.java:23:	Field comments are required
+src/main/java/com/capgemini/amqp/controller/UserService.java:23:	The constant name 'log' doesn't match '[A-Z][A-Z_0-9]*'
+src/main/java/com/capgemini/amqp/controller/UserService.java:23:	The constant name 'log' doesn't match '[A-Z][A-Z_0-9]*'
+src/main/java/com/capgemini/amqp/controller/UserService.java:23:	Variables that are final and static should be all capitals, 'log' is not all capitals.
+src/main/java/com/capgemini/amqp/controller/UserService.java:23:	Variables that are final and static should be all capitals, 'log' is not all capitals.
+src/main/java/com/capgemini/amqp/controller/UserService.java:24:	Field comments are required
+src/main/java/com/capgemini/amqp/controller/UserService.java:24:	Field comments are required
+src/main/java/com/capgemini/amqp/controller/UserService.java:24:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/capgemini/amqp/controller/UserService.java:24:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/capgemini/amqp/controller/UserService.java:25:	Field comments are required
+src/main/java/com/capgemini/amqp/controller/UserService.java:25:	Field comments are required
+src/main/java/com/capgemini/amqp/controller/UserService.java:26:	Field comments are required
+src/main/java/com/capgemini/amqp/controller/UserService.java:26:	Field comments are required
+src/main/java/com/capgemini/amqp/controller/UserService.java:33:	Parameter 'applicationConfig' is not assigned and could be declared final
+src/main/java/com/capgemini/amqp/controller/UserService.java:33:	Parameter 'applicationConfig' is not assigned and could be declared final
+src/main/java/com/capgemini/amqp/controller/UserService.java:38:	Public method and constructor comments are required
+src/main/java/com/capgemini/amqp/controller/UserService.java:38:	Public method and constructor comments are required
+src/main/java/com/capgemini/amqp/controller/UserService.java:47:	Parameter 'messageSender' is not assigned and could be declared final
+src/main/java/com/capgemini/amqp/controller/UserService.java:47:	Parameter 'messageSender' is not assigned and could be declared final
+src/main/java/com/capgemini/amqp/controller/UserService.java:52:	Parameter 'user' is not assigned and could be declared final
+src/main/java/com/capgemini/amqp/controller/UserService.java:52:	Parameter 'user' is not assigned and could be declared final
+src/main/java/com/capgemini/amqp/controller/UserService.java:52:	Public method and constructor comments are required
+src/main/java/com/capgemini/amqp/controller/UserService.java:52:	Public method and constructor comments are required
+src/main/java/com/capgemini/amqp/controller/UserService.java:53:	Local variable 'exchange' could be declared final
+src/main/java/com/capgemini/amqp/controller/UserService.java:53:	Local variable 'exchange' could be declared final
+src/main/java/com/capgemini/amqp/controller/UserService.java:53:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/capgemini/amqp/controller/UserService.java:53:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/capgemini/amqp/controller/UserService.java:54:	Local variable 'routingKey' could be declared final
+src/main/java/com/capgemini/amqp/controller/UserService.java:54:	Local variable 'routingKey' could be declared final
+src/main/java/com/capgemini/amqp/controller/UserService.java:54:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/capgemini/amqp/controller/UserService.java:54:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/capgemini/amqp/controller/UserService.java:58:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/capgemini/amqp/controller/UserService.java:58:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/capgemini/amqp/controller/UserService.java:59:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/capgemini/amqp/controller/UserService.java:59:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/capgemini/amqp/demo/Receiver.java:9:	Each class should declare at least one constructor
+src/main/java/com/capgemini/amqp/demo/Receiver.java:9:	Each class should declare at least one constructor
+src/main/java/com/capgemini/amqp/demo/Receiver.java:9:	Header comments are required
+src/main/java/com/capgemini/amqp/demo/Receiver.java:9:	Header comments are required
+src/main/java/com/capgemini/amqp/demo/Receiver.java:11:	Field comments are required
+src/main/java/com/capgemini/amqp/demo/Receiver.java:11:	Field comments are required
+src/main/java/com/capgemini/amqp/demo/Receiver.java:11:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/capgemini/amqp/demo/Receiver.java:11:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/capgemini/amqp/demo/Receiver.java:11:	Private field 'latch' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/com/capgemini/amqp/demo/Receiver.java:11:	Private field 'latch' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/com/capgemini/amqp/demo/Receiver.java:13:	Parameter 'message' is not assigned and could be declared final
+src/main/java/com/capgemini/amqp/demo/Receiver.java:13:	Parameter 'message' is not assigned and could be declared final
+src/main/java/com/capgemini/amqp/demo/Receiver.java:13:	Public method and constructor comments are required
+src/main/java/com/capgemini/amqp/demo/Receiver.java:13:	Public method and constructor comments are required
+src/main/java/com/capgemini/amqp/demo/Receiver.java:14:	System.out.println is used
+src/main/java/com/capgemini/amqp/demo/Receiver.java:14:	System.out.println is used
+src/main/java/com/capgemini/amqp/demo/Runner.java:15:	Header comments are required
+src/main/java/com/capgemini/amqp/demo/Runner.java:15:	Header comments are required
+src/main/java/com/capgemini/amqp/demo/Runner.java:17:	Field comments are required
+src/main/java/com/capgemini/amqp/demo/Runner.java:17:	Field comments are required
+src/main/java/com/capgemini/amqp/demo/Runner.java:17:	The constant name 'logger' doesn't match '[A-Z][A-Z_0-9]*'
+src/main/java/com/capgemini/amqp/demo/Runner.java:17:	The constant name 'logger' doesn't match '[A-Z][A-Z_0-9]*'
+src/main/java/com/capgemini/amqp/demo/Runner.java:17:	Variables that are final and static should be all capitals, 'logger' is not all capitals.
+src/main/java/com/capgemini/amqp/demo/Runner.java:17:	Variables that are final and static should be all capitals, 'logger' is not all capitals.
+src/main/java/com/capgemini/amqp/demo/Runner.java:19:	Field comments are required
+src/main/java/com/capgemini/amqp/demo/Runner.java:19:	Field comments are required
+src/main/java/com/capgemini/amqp/demo/Runner.java:19:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/capgemini/amqp/demo/Runner.java:19:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/capgemini/amqp/demo/Runner.java:20:	Field comments are required
+src/main/java/com/capgemini/amqp/demo/Runner.java:20:	Field comments are required
+src/main/java/com/capgemini/amqp/demo/Runner.java:20:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/capgemini/amqp/demo/Runner.java:20:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/capgemini/amqp/demo/Runner.java:22:	Parameter 'rabbitTemplate' is not assigned and could be declared final
+src/main/java/com/capgemini/amqp/demo/Runner.java:22:	Parameter 'rabbitTemplate' is not assigned and could be declared final
+src/main/java/com/capgemini/amqp/demo/Runner.java:22:	Parameter 'receiver' is not assigned and could be declared final
+src/main/java/com/capgemini/amqp/demo/Runner.java:22:	Parameter 'receiver' is not assigned and could be declared final
+src/main/java/com/capgemini/amqp/demo/Runner.java:22:	Public method and constructor comments are required
+src/main/java/com/capgemini/amqp/demo/Runner.java:22:	Public method and constructor comments are required
+src/main/java/com/capgemini/amqp/demo/Runner.java:28:	Parameter 'args' is not assigned and could be declared final
+src/main/java/com/capgemini/amqp/demo/Runner.java:28:	Parameter 'args' is not assigned and could be declared final
+src/main/java/com/capgemini/amqp/demo/Runner.java:29:	System.out.println is used
+src/main/java/com/capgemini/amqp/demo/Runner.java:29:	System.out.println is used
+src/main/java/com/capgemini/amqp/demo/Runner.java:33:	Number 10000 should separate every third digit with an underscore
+src/main/java/com/capgemini/amqp/demo/Runner.java:33:	Number 10000 should separate every third digit with an underscore
+src/main/java/com/capgemini/amqp/demo/Runner.java:33:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/capgemini/amqp/demo/Runner.java:33:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/capgemini/amqp/listener/MessageListener.java:20:	Each class should declare at least one constructor
+src/main/java/com/capgemini/amqp/listener/MessageListener.java:20:	Each class should declare at least one constructor
+src/main/java/com/capgemini/amqp/listener/MessageListener.java:21:	Field comments are required
+src/main/java/com/capgemini/amqp/listener/MessageListener.java:21:	Field comments are required
+src/main/java/com/capgemini/amqp/listener/MessageListener.java:22:	Use explicit scoping instead of the default package private level
+src/main/java/com/capgemini/amqp/listener/MessageListener.java:22:	Use explicit scoping instead of the default package private level
+src/main/java/com/capgemini/amqp/listener/MessageListener.java:23:	Avoid excessively long variable names like applicationConfigReader
+src/main/java/com/capgemini/amqp/listener/MessageListener.java:23:	Avoid excessively long variable names like applicationConfigReader
+src/main/java/com/capgemini/amqp/listener/MessageListener.java:23:	Field comments are required
+src/main/java/com/capgemini/amqp/listener/MessageListener.java:23:	Field comments are required
+src/main/java/com/capgemini/amqp/listener/MessageListener.java:23:	To avoid mistakes add a comment at the beginning of the applicationConfigReader field if you want a default access modifier
+src/main/java/com/capgemini/amqp/listener/MessageListener.java:23:	To avoid mistakes add a comment at the beginning of the applicationConfigReader field if you want a default access modifier
+src/main/java/com/capgemini/amqp/listener/MessageListener.java:46:	Avoid throwing raw exception types.
+src/main/java/com/capgemini/amqp/listener/MessageListener.java:46:	Avoid throwing raw exception types.
+src/main/java/com/capgemini/amqp/listener/MessageListener.java:46:	New exception is thrown in catch block, original stack trace may be lost
+src/main/java/com/capgemini/amqp/listener/MessageListener.java:46:	New exception is thrown in catch block, original stack trace may be lost
+src/main/java/com/capgemini/amqp/listener/MessageListener.java:50:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/capgemini/amqp/listener/MessageListener.java:50:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/capgemini/amqp/listener/MessageListener.java:61:	Parameter 'reqObj' is not assigned and could be declared final
+src/main/java/com/capgemini/amqp/listener/MessageListener.java:61:	Parameter 'reqObj' is not assigned and could be declared final
+src/main/java/com/capgemini/amqp/listener/MessageListener.java:76:	Avoid throwing raw exception types.
+src/main/java/com/capgemini/amqp/listener/MessageListener.java:76:	Avoid throwing raw exception types.
+src/main/java/com/capgemini/amqp/listener/MessageListener.java:76:	New exception is thrown in catch block, original stack trace may be lost
+src/main/java/com/capgemini/amqp/listener/MessageListener.java:76:	New exception is thrown in catch block, original stack trace may be lost
+src/main/java/com/capgemini/amqp/listener/MessageListener.java:80:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/capgemini/amqp/listener/MessageListener.java:80:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/capgemini/amqp/models/UserDetails.java:7:	Header comments are required
+src/main/java/com/capgemini/amqp/models/UserDetails.java:7:	Header comments are required
+src/main/java/com/capgemini/amqp/models/UserDetails.java:7:	The class 'UserDetails' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=8)
+src/main/java/com/capgemini/amqp/models/UserDetails.java:7:	The class 'UserDetails' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=8)
+src/main/java/com/capgemini/amqp/models/UserDetails.java:12:	Field comments are required
+src/main/java/com/capgemini/amqp/models/UserDetails.java:12:	Field comments are required
+src/main/java/com/capgemini/amqp/models/UserDetails.java:15:	Field comments are required
+src/main/java/com/capgemini/amqp/models/UserDetails.java:15:	Field comments are required
+src/main/java/com/capgemini/amqp/models/UserDetails.java:18:	Field comments are required
+src/main/java/com/capgemini/amqp/models/UserDetails.java:18:	Field comments are required
+src/main/java/com/capgemini/amqp/models/UserDetails.java:21:	Document empty constructor
+src/main/java/com/capgemini/amqp/models/UserDetails.java:21:	Document empty constructor
+src/main/java/com/capgemini/amqp/models/UserDetails.java:21:	Public method and constructor comments are required
+src/main/java/com/capgemini/amqp/models/UserDetails.java:21:	Public method and constructor comments are required
+src/main/java/com/capgemini/amqp/models/UserDetails.java:24:	Parameter 'supplierId' is not assigned and could be declared final
+src/main/java/com/capgemini/amqp/models/UserDetails.java:24:	Parameter 'supplierId' is not assigned and could be declared final
+src/main/java/com/capgemini/amqp/models/UserDetails.java:24:	Parameter 'supplierName' is not assigned and could be declared final
+src/main/java/com/capgemini/amqp/models/UserDetails.java:24:	Parameter 'supplierName' is not assigned and could be declared final
+src/main/java/com/capgemini/amqp/models/UserDetails.java:24:	Parameter 'supplierUrl' is not assigned and could be declared final
+src/main/java/com/capgemini/amqp/models/UserDetails.java:24:	Parameter 'supplierUrl' is not assigned and could be declared final
+src/main/java/com/capgemini/amqp/models/UserDetails.java:24:	Public method and constructor comments are required
+src/main/java/com/capgemini/amqp/models/UserDetails.java:24:	Public method and constructor comments are required
+src/main/java/com/capgemini/amqp/models/UserDetails.java:34:	Parameter 'supplierId' is not assigned and could be declared final
+src/main/java/com/capgemini/amqp/models/UserDetails.java:34:	Parameter 'supplierId' is not assigned and could be declared final
+src/main/java/com/capgemini/amqp/models/UserDetails.java:42:	Parameter 'supplierName' is not assigned and could be declared final
+src/main/java/com/capgemini/amqp/models/UserDetails.java:42:	Parameter 'supplierName' is not assigned and could be declared final
+src/main/java/com/capgemini/amqp/models/UserDetails.java:50:	Parameter 'supplierUrl' is not assigned and could be declared final
+src/main/java/com/capgemini/amqp/models/UserDetails.java:50:	Parameter 'supplierUrl' is not assigned and could be declared final
+src/main/java/com/capgemini/amqp/sender/MessageSender.java:12:	Each class should declare at least one constructor
+src/main/java/com/capgemini/amqp/sender/MessageSender.java:12:	Each class should declare at least one constructor
+src/main/java/com/capgemini/amqp/sender/MessageSender.java:13:	Field comments are required
+src/main/java/com/capgemini/amqp/sender/MessageSender.java:13:	Field comments are required
+src/main/java/com/capgemini/amqp/sender/MessageSender.java:13:	The constant name 'log' doesn't match '[A-Z][A-Z_0-9]*'
+src/main/java/com/capgemini/amqp/sender/MessageSender.java:13:	The constant name 'log' doesn't match '[A-Z][A-Z_0-9]*'
+src/main/java/com/capgemini/amqp/sender/MessageSender.java:13:	Variables that are final and static should be all capitals, 'log' is not all capitals.
+src/main/java/com/capgemini/amqp/sender/MessageSender.java:13:	Variables that are final and static should be all capitals, 'log' is not all capitals.
+src/main/java/com/capgemini/amqp/sender/MessageSender.java:22:	Parameter 'data' is not assigned and could be declared final
+src/main/java/com/capgemini/amqp/sender/MessageSender.java:22:	Parameter 'data' is not assigned and could be declared final
+src/main/java/com/capgemini/amqp/sender/MessageSender.java:22:	Parameter 'exchange' is not assigned and could be declared final
+src/main/java/com/capgemini/amqp/sender/MessageSender.java:22:	Parameter 'exchange' is not assigned and could be declared final
+src/main/java/com/capgemini/amqp/sender/MessageSender.java:22:	Parameter 'rabbitTemplate' is not assigned and could be declared final
+src/main/java/com/capgemini/amqp/sender/MessageSender.java:22:	Parameter 'rabbitTemplate' is not assigned and could be declared final
+src/main/java/com/capgemini/amqp/sender/MessageSender.java:22:	Parameter 'routingKey' is not assigned and could be declared final
+src/main/java/com/capgemini/amqp/sender/MessageSender.java:22:	Parameter 'routingKey' is not assigned and could be declared final
+src/main/java/com/capgemini/amqp/sender/MessageSender.java:28:	Parameter 'exchange' is not assigned and could be declared final
+src/main/java/com/capgemini/amqp/sender/MessageSender.java:28:	Parameter 'exchange' is not assigned and could be declared final
+src/main/java/com/capgemini/amqp/sender/MessageSender.java:28:	Parameter 'rabbitTemplate' is not assigned and could be declared final
+src/main/java/com/capgemini/amqp/sender/MessageSender.java:28:	Parameter 'rabbitTemplate' is not assigned and could be declared final
+src/main/java/com/capgemini/amqp/sender/MessageSender.java:28:	Parameter 'routingKey' is not assigned and could be declared final
+src/main/java/com/capgemini/amqp/sender/MessageSender.java:28:	Parameter 'routingKey' is not assigned and could be declared final
+src/main/java/com/capgemini/amqp/sender/MessageSender.java:28:	Parameter 'url' is not assigned and could be declared final
+src/main/java/com/capgemini/amqp/sender/MessageSender.java:28:	Parameter 'url' is not assigned and could be declared final
+src/main/java/com/capgemini/amqp/sender/MessageSender.java:28:	Public method and constructor comments are required
+src/main/java/com/capgemini/amqp/sender/MessageSender.java:28:	Public method and constructor comments are required
+src/main/java/com/capgemini/amqp/sender/MessageSender.java:29:	Parameter 'data' is not assigned and could be declared final
+src/main/java/com/capgemini/amqp/sender/MessageSender.java:29:	Parameter 'data' is not assigned and could be declared final
+src/main/java/com/capgemini/amqp/util/ApplicationConstant.java:3:	Header comments are required
+src/main/java/com/capgemini/amqp/util/ApplicationConstant.java:3:	Header comments are required
+src/main/java/com/capgemini/amqp/util/ApplicationConstant.java:3:	The utility class name 'ApplicationConstant' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+src/main/java/com/capgemini/amqp/util/ApplicationConstant.java:3:	The utility class name 'ApplicationConstant' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+src/main/java/com/capgemini/amqp/util/ApplicationConstant.java:5:	Field comments are required
+src/main/java/com/capgemini/amqp/util/ApplicationConstant.java:5:	Field comments are required
+src/main/java/com/capgemini/amqp/util/ApplicationConstant.java:6:	Field comments are required
+src/main/java/com/capgemini/amqp/util/ApplicationConstant.java:6:	Field comments are required
+src/main/java/com/capgemini/amqp/util/ApplicationConstant.java:8:	Field comments are required
+src/main/java/com/capgemini/amqp/util/ApplicationConstant.java:8:	Field comments are required
+src/main/java/com/capgemini/amqp/util/ApplicationConstant.java:9:	Field comments are required
+src/main/java/com/capgemini/amqp/util/ApplicationConstant.java:9:	Field comments are required
+src/main/java/com/capgemini/amqp/util/ApplicationConstant.java:10:	Field comments are required
+src/main/java/com/capgemini/amqp/util/ApplicationConstant.java:10:	Field comments are required
+src/main/java/com/capgemini/amqp/util/ApplicationConstant.java:13:	Avoid excessively long variable names like MESSAGE_QUEUE_SEND_ERROR
+src/main/java/com/capgemini/amqp/util/ApplicationConstant.java:13:	Avoid excessively long variable names like MESSAGE_QUEUE_SEND_ERROR
+src/main/java/com/capgemini/amqp/util/ApplicationConstant.java:13:	Field comments are required
+src/main/java/com/capgemini/amqp/util/ApplicationConstant.java:13:	Field comments are required
+src/main/java/com/capgemini/amqp/util/ApplicationConstant.java:14:	Avoid excessively long variable names like MESSAGE_QUEUE_RECEIVE_ERROR
+src/main/java/com/capgemini/amqp/util/ApplicationConstant.java:14:	Avoid excessively long variable names like MESSAGE_QUEUE_RECEIVE_ERROR
+src/main/java/com/capgemini/amqp/util/ApplicationConstant.java:14:	Field comments are required
+src/main/java/com/capgemini/amqp/util/ApplicationConstant.java:14:	Field comments are required
+src/main/java/com/capgemini/amqp/util/ApplicationConstant.java:17:	Avoid excessively long variable names like MESSAGE_RETRY_DELAY
+src/main/java/com/capgemini/amqp/util/ApplicationConstant.java:17:	Avoid excessively long variable names like MESSAGE_RETRY_DELAY
+src/main/java/com/capgemini/amqp/util/ApplicationConstant.java:17:	Field comments are required
+src/main/java/com/capgemini/amqp/util/ApplicationConstant.java:17:	Field comments are required
+src/test/java/com/amqp/springAMQP/SpringAmqpApplicationTests.java:1:	Package name contains upper case characters
+src/test/java/com/amqp/springAMQP/SpringAmqpApplicationTests.java:1:	Package name contains upper case characters
+src/test/java/com/amqp/springAMQP/SpringAmqpApplicationTests.java:10:	Each class should declare at least one constructor
+src/test/java/com/amqp/springAMQP/SpringAmqpApplicationTests.java:10:	Each class should declare at least one constructor
+src/test/java/com/amqp/springAMQP/SpringAmqpApplicationTests.java:10:	Header comments are required
+src/test/java/com/amqp/springAMQP/SpringAmqpApplicationTests.java:10:	Header comments are required
+src/test/java/com/amqp/springAMQP/SpringAmqpApplicationTests.java:13:	Document empty method body
+src/test/java/com/amqp/springAMQP/SpringAmqpApplicationTests.java:13:	Document empty method body
+src/test/java/com/amqp/springAMQP/SpringAmqpApplicationTests.java:13:	JUnit tests should include assert() or fail()
+src/test/java/com/amqp/springAMQP/SpringAmqpApplicationTests.java:13:	JUnit tests should include assert() or fail()
+src/test/java/com/amqp/springAMQP/SpringAmqpApplicationTests.java:13:	Public method and constructor comments are required
+src/test/java/com/amqp/springAMQP/SpringAmqpApplicationTests.java:13:	Public method and constructor comments are required
