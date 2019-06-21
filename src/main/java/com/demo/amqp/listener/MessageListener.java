@@ -1,4 +1,4 @@
-package com.capgemini.amqp.listener;
+package com.demo.amqp.listener;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -9,15 +9,15 @@ import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.HttpClientErrorException;
 
-import com.capgemini.amqp.config.ApplicationConfigReader;
-import com.capgemini.amqp.models.UserDetails;
-import com.capgemini.amqp.util.ApplicationConstantUtils;
+import com.demo.amqp.config.ApplicationConfigReader;
+import com.demo.amqp.models.UserDetails;
+import com.demo.amqp.util.ApplicationConstantUtils;
 
 /**
  * Message Listener for RabbitMQ
  */
 /**
- * @author sarjaisw
+ * @author sarita
  *
  */
 @Service

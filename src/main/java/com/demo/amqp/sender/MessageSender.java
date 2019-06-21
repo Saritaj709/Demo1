@@ -1,4 +1,4 @@
-package com.capgemini.amqp.sender;
+package com.demo.amqp.sender;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
  * Message sender to send message to queue using exchange.
  */
 /**
- * @author sarjaisw
+ * @author sarita
  *
  */
 @Component

@@ -1,4 +1,4 @@
-package com.capgemini.amqp.config;
+package com.demo.amqp.config;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;

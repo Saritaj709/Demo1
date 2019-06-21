@@ -1,7 +1,7 @@
-package com.capgemini.amqp.util;
+package com.demo.amqp.util;
 
 /**
- * @author sarjaisw
+ * @author sarita
  *
  */
 public class ApplicationConstantUtils {

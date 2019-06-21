@@ -1,3 +1,4 @@
+package com.demo.amqp.config;
 /*
  * package com.capgemini.amqp.config;
  * 

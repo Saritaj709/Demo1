@@ -1,4 +1,4 @@
-package com.capgemini.amqp.models;
+package com.demo.amqp.models;
 
 import java.io.Serializable;
 

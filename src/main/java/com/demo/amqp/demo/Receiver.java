@@ -1,3 +1,4 @@
+package com.demo.amqp.demo;
 /*
  * package com.capgemini.amqp.demo;
  * 
@@ -7,7 +8,7 @@
  * org.springframework.stereotype.Component;
  * 
  *//**
-	 * @author sarjaisw
+	 * @author sarita
 	 *
 	 */
 /*

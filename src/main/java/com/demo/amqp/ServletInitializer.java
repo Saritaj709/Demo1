@@ -1,4 +1,4 @@
-package com.capgemini.amqp;
+package com.demo.amqp;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;

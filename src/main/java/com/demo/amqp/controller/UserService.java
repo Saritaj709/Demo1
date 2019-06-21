@@ -1,4 +1,4 @@
-package com.capgemini.amqp.controller;
+package com.demo.amqp.controller;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -12,13 +12,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.capgemini.amqp.config.ApplicationConfigReader;
-import com.capgemini.amqp.models.UserDetails;
-import com.capgemini.amqp.sender.MessageSender;
-import com.capgemini.amqp.util.ApplicationConstantUtils;
+import com.demo.amqp.config.ApplicationConfigReader;
+import com.demo.amqp.models.UserDetails;
+import com.demo.amqp.sender.MessageSender;
+import com.demo.amqp.util.ApplicationConstantUtils;
 
 /**
- * @author sarjaisw
+ * @author sarita
  *
  */
 @RestController

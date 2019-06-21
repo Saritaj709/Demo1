@@ -1,3 +1,4 @@
+package com.demo.amqp.demo;
 /*
  * package com.capgemini.amqp.demo;
  * 
@@ -11,7 +12,7 @@
  * import com.capgemini.amqp.config.RabbitMQConfig;
  * 
  *//**
-	 * @author sarjaisw
+	 * @author sarita
 	 *
 	 */
 /*

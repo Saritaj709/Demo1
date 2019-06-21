@@ -1,4 +1,4 @@
-package com.capgemini.amqp.config;
+package com.demo.amqp.config;
 
 import org.springframework.amqp.core.Binding;
 import org.springframework.amqp.core.BindingBuilder;
