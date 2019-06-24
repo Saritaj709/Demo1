@@ -26,11 +26,13 @@ public class MessageSender {
 	 * @param routingKey
 	 * @param data
 	 */
-	public void sendMessage(final RabbitTemplate rabbitTemplate,final String exchange,final String routingKey,final Object data) {
+	public void sendMessage(final RabbitTemplate rabbitTemplate, final String exchange, final String routingKey,
+			final String data) {
 		LOGGER.info("Sending message to the queue using routingKey {}. Message= {}", routingKey, data);
 		rabbitTemplate.convertAndSend(exchange, routingKey, data);
 		LOGGER.info("The message has been sent to the queue.");
 	}
+
 
 	/**
 	 * @param rabbitTemplate

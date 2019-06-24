@@ -10,8 +10,9 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.client.HttpClientErrorException;
 
 import com.demo.amqp.config.ApplicationConfigReader;
-import com.demo.amqp.models.UserDetails;
 import com.demo.amqp.util.ApplicationConstantUtils;
+import com.google.gson.Gson;
+import com.google.gson.JsonObject;
 
 /**
  * Message Listener for RabbitMQ
@@ -26,11 +27,6 @@ public class MessageListener {
 	 * 
 	 */
 	private static final Logger LOGGER = LoggerFactory.getLogger(MessageListener.class);
-	/**
-	 * 
-	 */
-	@Autowired
-	private ApplicationConfigReader applicationConfigReader;
 
 	/**
 	 * Message listener for app1
@@ -41,11 +37,14 @@ public class MessageListener {
 	 * @param data
 	 */
 	@RabbitListener(queues = "${app1.queue.name}")
-	public void receiveMessageForApp1(final UserDetails data) {
-		LOGGER.info("Received message: {} from app1 queue.", data);
+	public void receiveMessageForApp1(final String jsonString) {
+
+		LOGGER.info("Received message:{} from app1 queue.");
 		try {
 			LOGGER.info("Making REST call to the API");
-			// TODO: Code to make REST call
+			JsonObject jsonObject = new Gson().fromJson(jsonString, JsonObject.class);
+			LOGGER.info("Final message : {} from app1 queue.",jsonObject.toString());
+
 			LOGGER.info("<< Exiting receiveMessageForApp1() after API call.");
 		} catch (HttpClientErrorException ex) {
 			if (ex.getStatusCode() == HttpStatus.NOT_FOUND) {

@@ -10,10 +10,10 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.demo.amqp.config.ApplicationConfigReader;
-import com.demo.amqp.models.UserDetails;
 import com.demo.amqp.sender.MessageSender;
 import com.demo.amqp.util.ApplicationConstantUtils;
 
@@ -78,17 +78,24 @@ public class UserService {
 	 * @param user
 	 * @return
 	 */
-	@RequestMapping(path = "/add", method = RequestMethod.POST, produces = MediaType.APPLICATION_JSON_VALUE)
-	public ResponseEntity<?> sendMessage(@RequestBody final UserDetails user) {
-		final String exchange = getApplicationConfig().getApp1Exchange();
-		final String routingKey = getApplicationConfig().getApp1RoutingKey();
+	@RequestMapping(path = "/amqp/add", method = RequestMethod.POST, produces = MediaType.APPLICATION_JSON_VALUE)
+	public ResponseEntity<?> sendMessageAsString(@RequestBody final String userDetails,
+			@RequestParam(value = "exchange", required = false) String exchange,
+			@RequestParam(value = "routingKey", required = false) String routingKey) {
 		/* Sending to Message Queue */
+
 		try {
-			messageSender.sendMessage(rabbitTemplate, exchange, routingKey, user);
-			return new ResponseEntity<String>(ApplicationConstantUtils.IN_QUEUE, HttpStatus.OK);
+			// JsonObject jsonObject = new Gson().fromJson(userDetails, JsonObject.class);
+			// messageSender.sendMessage(rabbitTemplate, exchange, routingKey,
+			// jsonObject.toString());
+
+			messageSender.sendMessage(rabbitTemplate, exchange, routingKey, userDetails);
+
+			return new ResponseEntity<>(ApplicationConstantUtils.IN_QUEUE, HttpStatus.OK);
 		} catch (Exception ex) {
 			LOGGER.error("Exception occurred while sending message to the queue. Exception= {}", ex);
-			return new ResponseEntity<>(ApplicationConstantUtils.MESSAGE_QUEUE_SEND_ERROR, HttpStatus.INTERNAL_SERVER_ERROR);
+			return new ResponseEntity<>(ApplicationConstantUtils.MESSAGE_QUEUE_SEND_ERROR,
+					HttpStatus.INTERNAL_SERVER_ERROR);
 		}
 	}
 }
